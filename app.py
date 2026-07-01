@@ -18,8 +18,7 @@ st.set_page_config(
 kmeans = joblib.load("models/kmeans_model.pkl")
 scaler = joblib.load("models/scaler.pkl")
 rfm = pd.read_csv("data/rfm_customers.csv")
-df = pd.read_csv("data/online_retail.csv")
-
+df = pd.read_csv("data/online_retail_small.csv")
 # ----------------------------
 # Sidebar
 # ----------------------------
